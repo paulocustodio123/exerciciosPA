@@ -1,0 +1,28 @@
+﻿<html>
+    <head>
+        <script language=javascript>
+
+            
+           salario=prompt("qual seu salario fixo?")
+           vendas=prompt("qual o valor da venda?")
+
+
+           if(vendas<=1500)
+           {
+            soma=parseFloat (vendas* 0.03) +parseFloat( salario)
+            alert("seu salario total é" + soma)
+            
+           }
+           else{
+               soma=((parseFloat(vendas)-1500)*0.05) + (1500 * 0.03) + parseFloat( salario)
+               alert("seu salario total é " + soma)
+              
+
+           }
+           
+        </script>
+    </head>
+         
+        <body> </body>
+    
+</html>
