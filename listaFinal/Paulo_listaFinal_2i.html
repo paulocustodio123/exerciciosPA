@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <script language=javascript>
+            salario=parseFloat(prompt("Informe seu salario atual."))
+
+            if(salario<=280){
+                aumento=salario*0.20
+                valor=aumento+salario
+                document.write("Salario antes do reajuste"+ salario+"<br/>" + "percentual de aumento aplicado = 20%" +"<br/>" + "valor do aumento" + aumento+"<br/>" +"Novo salario apos o aumento"+ valor)
+            }
+
+            if(salario > 280.01 && salario <= 700){
+                aumento=salario*0.15
+                valor=aumento+salario
+                document.write("Salario antes do reajuste"+ salario+"<br/>" + "percentual de aumento aplicado = 15%" +"<br/>" + "valor do aumento" + aumento+"<br/>" +"Novo salario apos o aumento"+ valor)
+            }
+            if(salario > 700.01 && salario <= 1500){
+                aumento=salario*0.10
+                valor=aumento+salario
+                document.write("Salario antes do reajuste"+ salario+"<br/>" +"percentual de aumento aplicado = 10%" +"<br/>" + "valor do aumento" + aumento+"<br/>" +"Novo salario apos o aumento"+ valor)
+            }
+            if(salario >= 1500){
+                aumento=salario*0.05
+                valor=aumento+salario
+                document.write("Salario antes do reajuste"+ salario+"<br/>" +"percentual de aumento aplicado = 0.5%" +" <br/>" + "valor do aumento" + aumento+"<br/>" +"Novo salario apos o aumento"+ valor)
+            }
+
+
+
+
+    
+
+            
+             </script>
+    </head>
+         
+        <body> </body>
+    
+</html>

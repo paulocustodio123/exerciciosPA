@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <script language=javascript>
+
+          ano=parseFloat(prompt("informe o ano para saber se e  Bissexto ou nao"))
+
+          soma=ano%4
+          if(soma==0)
+          {
+            divisao=ano%100
+            if(divisao!=0)
+            {
+                document.write("O ano informado é Bissexto")
+            }
+          }
+          else
+          {
+            div=ano%400
+            if(div!=0){
+                document.write("O ano informado não é Bissexto")
+            }
+            else{
+                document.write("O ano informado é Bissexto")
+            }
+          }
+
+          
+
+          
+
+
+
+
+
+        </script>
+    </head>
+         
+        <body> </body>
+    
+</html>

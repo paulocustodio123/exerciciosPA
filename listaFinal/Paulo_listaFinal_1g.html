@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <script language=javascript>
+            valor=parseFloat(prompt("Qual o valor recebido por hora"))
+            horas=parseFloat(prompt("Numeros de horas trabalhadas no mes"))
+            salariomes=(valor*horas)
+            ir=salariomes*0.11
+            inss=salariomes*0.08
+            sindicato=salariomes*0.05
+            desconto=ir+inss+sindicato
+            salarioliquido=salariomes - desconto
+            document.write("Salario do mes  R$" + salariomes +"</br>"+ "IR=" +ir+ "</br>" +"INSS=" +inss+ "</br>"+ "SINDICATO="  +sindicato+ "</br>"+"Salario liquido="+ salarioliquido)
+            
+            
+            
+
+             </script>
+    </head>
+         
+        <body> </body>
+    
+</html>
