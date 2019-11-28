@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <script language=javascript>
+            pergunta1=prompt("Telefonou para a vítima?\n responda S para sim \n ou N para nao")
+            pergunta2=prompt("Esteve no local do crime?\n responda S para sim \n ou N para nao")
+            pergunta3=prompt("Mora perto da vitima?\n responda S para sim \n ou N para nao")
+            pergunta4=prompt("Devia para a vítima?\n responda S para sim \n ou N para nao")
+            pergunta5=prompt("Já trabalhou com a vítima? \n responda S para sim \n ou N para nao")
+
+            if(pergunta1=="s")
+            {
+                questao1 =1;
+            }else{
+                questao1 =0;
+            }
+            if(pergunta2=="s")
+            {
+                questao2 =1;
+            }else{
+                questao2 =0;
+            }
+            if(pergunta3=="s")
+            {
+                questao3 =1;
+            }else{
+                questao3 =0;
+            }
+            if(pergunta4=="s")
+            {
+                questao4 =1;
+            }else{
+                questao4 =0;
+            }
+            if(pergunta5=="s")
+            {
+                questao5 =1;
+            }else{
+                questao5 =0;
+            }
+                soma=questao1+questao2+questao3+questao4+questao5;
+            if(soma<2){
+                document.write("Inocente.")
+            }
+            if(soma==2){
+                document.write("Suspeita.")
+            }
+            if(soma>2 && soma<4){
+                document.write("Cumplice.")
+            }
+            if(soma==5){
+                document.write("Assassino.")
+            }
+          
+
+
+        </script>
+    </head>
+         
+        <body> </body>
+    
+</html>
